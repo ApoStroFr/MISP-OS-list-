@@ -1,7 +1,7 @@
 Petite explication :
 
 Chaque fichier .json dans ce package a été généré
-à l'aide du fichier publique du NIST appelé CPE
+à l'aide de la liste CPE publique publié par le NIST.
 
 Les Jsons ont été formaté sur le même modèle que l'outil en ligne
 de recherche de CPE du NIST.
@@ -24,6 +24,9 @@ Les fichiers :
 				quelque soit le type de produit)
 				
 	Afin de récupérer les fichiers json, il faut reconstituer l'archive.
+
+En cas, de proposition d'amélioration des Jsons, ou d'ajout d'informations concernant depuis la liste de CPE,
+ne pas hésiter à me contacter (bien que cela sorte du cadre du projet scolaire).
 
 Les scripts :
 
