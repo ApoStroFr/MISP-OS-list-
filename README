@@ -22,6 +22,8 @@ Les fichiers :
 
 	- vendor/*.json : 	contient l'ensemble des produits (quelque
 				quelque soit le type de produit)
+				
+	Afin de récupérer les fichiers json, il faut reconstituer l'archive.
 
 Les scripts :
 
