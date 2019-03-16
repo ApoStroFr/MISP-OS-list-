@@ -1,0 +1,45 @@
+Petite explication :
+
+Chaque fichier .json dans ce package a été généré
+à l'aide du fichier publique du NIST appelé CPE
+
+Les Jsons ont été formaté sur le même modèle que l'outil en ligne
+de recherche de CPE du NIST.
+
+Le dossier vendor contient des jsons par vendeur. Ils contiennent
+l'ensemble des JSON de chaque vendeur.
+
+
+Les fichiers :
+
+	- os.json : contient l'ensemble des os
+
+	- sftw.json : contient l'ensemble des software 
+
+	- hrdw.json : contient l'ensemble des hardware
+
+Les fichiers :
+
+	- vendor/*.json : 	contient l'ensemble des produits (quelque
+				quelque soit le type de produit)
+
+Les scripts :
+
+	- osJson.sh : 		permet de parcourir le fichier cpe (xml)
+				et de récupérer les valeurs des produits
+				vendeurs ou autres qui nous interessent
+				par l'intermédiaire de régex
+
+	- createJson.py :	aplé dans osJson.sh, permet de formater
+				les données récupérer par le .sh en
+				format Json. Crée et modifie les fichiers
+				Json.
+
+	- progress_bar.sh :	permet d'afficher une barre de
+				progression de l'execution du programme.
+				Le XML du NIST étant lourd, cela permet
+				d'avoir un état de l'avancement du script.
+				(Execution a duré environ heures)
+
+progress_bar.sh n'est pas un script que j'ai développé, j'ai réutilisé
+ce projet : https://github.com/pollev/bash_progress_bar.
