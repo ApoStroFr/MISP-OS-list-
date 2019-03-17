@@ -6,8 +6,8 @@ Chaque fichier .json dans ce package a été généré
 Les Jsons ont été formaté sur le même modèle que l'outil en ligne
 de recherche de CPE du NIST.
 
-Le dossier vendor contient des jsons par vendeur. Ils contiennent
-l'ensemble des JSON de chaque vendeur.
+L'archive vendor contient des jsons par vendeur. Ils contiennent
+l'ensemble des produits pour chaque vendeur.
 
 
 Les fichiers :
